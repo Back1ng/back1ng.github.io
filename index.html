@@ -1,10 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--    CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="./css/jquery.fancybox.min.css" rel="stylesheet">
+
+<!--    Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
     <title>Back1ng</title>
+
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h2 class="text-center my-4">Back1ng Portfolio</h2>
 
+        <div class="card my-4">
+            <div class="card-header">
+                Todo list with Laravel
+            </div>
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="./images/todo-1.png">
+                            <img class="w-100" src="./images/todo-1.png">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="./images/todo-2.png">
+                            <img class="w-100" src="./images/todo-2.png">
+                         </a>
+                    </div>
+                </div>
+
+                <p class="w-50 text-center mx-auto my-3">
+                    Разработан с использованием TDD.<br>
+                    Присутствует возможность создавать секции и задачи в них,<br>
+                    которые можно помечать как готовые.
+                </p>
+            </div>
+        </div>
+
+        <div class="card my-4">
+            <div class="card-header">
+                Uppu File Sharing with Symfony
+            </div>
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="./images/uppu-1.png">
+                            <img class="w-100" src="./images/uppu-1.png">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="./images/uppu-2.png">
+                            <img class="w-100" src="./images/uppu-2.png">
+                        </a>
+                    </div>
+                </div>
+
+                <p class="w-50 text-center mx-auto my-3">
+                    Файлообменник на Symfony. Присутствует Аудио/Видео плеер для загруженных файлов, поиск по файлам.<br>
+                    Drap&Drop, но без дизайна.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="card my-4">
+            <div class="card-header">
+                Сайт для тестирования with Laravel
+            </div>
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col-4">
+                        <a data-fancybox="gallery" href="./images/olimp-1.png">
+                            <img class="w-100" src="./images/olimp-1.png">
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a data-fancybox="gallery" href="./images/olimp-2.png">
+                            <img class="w-100" src="./images/olimp-2.png">
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a data-fancybox="gallery" href="./images/olimp-3.png">
+                            <img class="w-100" src="./images/olimp-3.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="./images/olimp-4.png">
+                            <img class="w-100" src="./images/olimp-4.png">
+                        </a>
+                    </div>
+
+                    <div class="col-6">
+                        <a data-fancybox="gallery" href="./images/olimp-5.png">
+                            <img class="w-100" src="./images/olimp-5.png">
+                        </a>
+                    </div>
+                </div>
+
+                <p class="w-75 text-center mx-auto my-3">
+                    Разрабатывался как дипломный проект. Для создания и прохождения тестов использован Vue.JS.<br>
+                    Присутствует возможность отправить результат на электронную почту или скачать на устройство.<br>
+                    Полученный результат накладывается на бланк диплома/сертификата с переводом ФИО в дательный падеж.<br>
+                    Используются регулярные выражения для проверки данных при регистрации.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
 </body>
 </html>
