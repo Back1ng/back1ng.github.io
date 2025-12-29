@@ -563,13 +563,17 @@ button:focus-visible {
   
   .key {
     height: 44px;
-    min-width: 32px;
+    min-width: 0;
     font-size: 14px;
-    padding: 0 8px;
+    padding: 0 6px;
   }
   
   .key-wide {
-    min-width: 48px;
+    min-width: 0;
+  }
+
+  .keyboard-row {
+    gap: 2px;
   }
   
   .word-grid {
